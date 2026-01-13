@@ -59,6 +59,10 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
+# Gemfile
+group :production do
+  gem "rails_12factor"
+end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
