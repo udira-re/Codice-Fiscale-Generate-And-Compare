@@ -1,2 +1,40 @@
 echo ".DS_Store" >> .gitignore
 .env
+# Rails / Ruby
+*.rbc
+*.sassc
+*.rbenv-vars
+.bundle
+vendor/bundle
+log/*
+tmp/*
+*.swp
+*.swo
+.DS_Store
+.byebug_history
+
+# Rails credentials / secrets
+/config/master.key
+.env
+.env.*          # any local env files
+
+# Ignore database files if accidentally created
+*.sqlite3
+*.sqlite3-journal
+
+# Node / Yarn / JS
+node_modules/
+yarn-error.log
+public/packs
+public/packs-test
+tmp/pids
+tmp/cache
+tmp/sockets
+coverage/
+
+# Mac / Editor
+.DS_Store
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
