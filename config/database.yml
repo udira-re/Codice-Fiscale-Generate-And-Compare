@@ -5,12 +5,16 @@ default: &default
   username: <%= ENV['DB_USERNAME'] %>
   password: <%= ENV['DB_PASSWORD'] %>
   database: <%= ENV['DB_NAME'] || 'codice_fiscale_app_development' %>
+
+development:
+  <<: *default
+  database: <%= ENV['DB_NAME'] || 'codice_fiscale_app_development' %>
+
+test:
+  <<: *default
+  database: <%= ENV['DB_NAME'] || 'codice_fiscale_app_test' %>
+
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
+  database: <%= ENV['DB_NAME'] || 'codice_fiscale_app_production' %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: <%= ENV['DB_HOST'] %>
-  username: <%= ENV['DB_USERNAME'] %>
-  password: <%= ENV['DB_PASSWORD'] %>
-  database: <%= ENV['DB_NAME'] %>
