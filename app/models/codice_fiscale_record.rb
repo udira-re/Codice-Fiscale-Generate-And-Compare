@@ -1,0 +1,2 @@
+class CodiceFiscaleRecord < ApplicationRecord
+end

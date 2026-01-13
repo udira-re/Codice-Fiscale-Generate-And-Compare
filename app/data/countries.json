@@ -1,0 +1,478 @@
+[
+  {
+    "name": "ALBANIA",
+    "code": "Z100"
+  },
+  {
+    "name": "ANDORRA",
+    "code": "Z101"
+  },
+  {
+    "name": "AUSTRIA",
+    "code": "Z102"
+  },
+  {
+    "name": "BELGIO",
+    "code": "Z103"
+  },
+  {
+    "name": "BIELORUSSIA",
+    "code": "Z139"
+  },
+  {
+    "name": "BOSNIA ED ERZEGOVINA",
+    "code": "Z153"
+  },
+  {
+    "name": "BULGARIA",
+    "code": "Z104"
+  },
+  {
+    "name": "CITTA' DEL VATICANO",
+    "code": "Z106"
+  },
+  {
+    "name": "CROAZIA",
+    "code": "Z149"
+  },
+  {
+    "name": "DANIMARCA",
+    "code": "Z107"
+  },
+  {
+    "name": "ESTONIA",
+    "code": "Z144"
+  },
+  {
+    "name": "FAER OER (ISOLE)",
+    "code": "Z108"
+  },
+  {
+    "name": "FINLANDIA",
+    "code": "Z109"
+  },
+  {
+    "name": "FRANCIA",
+    "code": "Z110"
+  },
+  {
+    "name": "GEORGIA",
+    "code": "Z136"
+  },
+  {
+    "name": "GERMANIA",
+    "code": "Z112"
+  },
+  {
+    "name": "GERMANIA OVEST",
+    "code": "Z111"
+  },
+  {
+    "name": "GERMANIA EST",
+    "code": "Z112"
+  },
+  {
+    "name": "GIBILTERRA",
+    "code": "Z113"
+  },
+  {
+    "name": "GRAN BRETAGNA",
+    "code": "Z114"
+  },
+  {
+    "name": "GRECIA",
+    "code": "Z115"
+  },
+  {
+    "name": "IRLANDA",
+    "code": "Z116"
+  },
+  {
+    "name": "ISLANDA",
+    "code": "Z117"
+  },
+  {
+    "name": "JUGOSLAVIA",
+    "code": "Z118"
+  },
+  {
+    "name": "KAZAKISTAN",
+    "code": "Z152"
+  },
+  {
+    "name": "KIRGHIZISTAN",
+    "code": "Z142"
+  },
+  {
+    "name": "LETTONIA",
+    "code": "Z145"
+  },
+  {
+    "name": "LITUANIA",
+    "code": "Z146"
+  },
+  {
+    "name": "LIECHTENSTEIN",
+    "code": "Z119"
+  },
+  {
+    "name": "LUSSEMBURGO",
+    "code": "Z120"
+  },
+  {
+    "name": "MACEDONIA",
+    "code": "Z148"
+  },
+  {
+    "name": "MALTA (ISOLE)",
+    "code": "Z121"
+  },
+  {
+    "name": "MAN (ISOLE)",
+    "code": "Z122"
+  },
+  {
+    "name": "MOLDAVIA",
+    "code": "Z140"
+  },
+  {
+    "name": "MONACO",
+    "code": "Z123"
+  },
+  {
+    "name": "NORMANNE (ISOLE)",
+    "code": "Z124"
+  },
+  {
+    "name": "NORVEGIA",
+    "code": "Z125"
+  },
+  {
+    "name": "PAESI BASSI",
+    "code": "Z126"
+  },
+  {
+    "name": "POLONIA",
+    "code": "Z127"
+  },
+  {
+    "name": "PORTOGALLO",
+    "code": "Z128"
+  },
+  {
+    "name": "ROMANIA",
+    "code": "Z129"
+  },
+  {
+    "name": "RUSSIA",
+    "code": "Z154"
+  },
+  {
+    "name": "SAN MARINO",
+    "code": "Z130"
+  },
+  {
+    "name": "SERBIA E MONTENEGRO",
+    "code": "Z118"
+  },
+  {
+    "name": "SLOVACCHIA",
+    "code": "Z155"
+  },
+  {
+    "name": "SLOVENIA",
+    "code": "Z150"
+  },
+  {
+    "name": "SPAGNA",
+    "code": "Z131"
+  },
+  {
+    "name": "SVEZIA",
+    "code": "Z132"
+  },
+  {
+    "name": "SVIZZERA",
+    "code": "Z133"
+  },
+  {
+    "name": "TAGIKISTAN",
+    "code": "Z145"
+  },
+  {
+    "name": "UZBEKISTAN",
+    "code": "Z143"
+  },
+  {
+    "name": "AFGHANISTAN",
+    "code": "Z200"
+  },
+  {
+    "name": "ARABIA MERIDIONALE",
+    "code": "Z201"
+  },
+  {
+    "name": "PROTETTORATO ARABIA MER.",
+    "code": "Z202"
+  },
+  {
+    "name": "ARABIA SAUDITA",
+    "code": "Z203"
+  },
+  {
+    "name": "BAHREIN",
+    "code": "Z204"
+  },
+  {
+    "name": "BHUTAN",
+    "code": "Z205"
+  },
+  {
+    "name": "BIRMANIA",
+    "code": "Z206"
+  },
+  {
+    "name": "BRUNEI",
+    "code": "Z207"
+  },
+  {
+    "name": "CAMBOGIA",
+    "code": "Z208"
+  },
+  {
+    "name": "CINA REPUBBLICA POPOLARE",
+    "code": "Z210"
+  },
+  {
+    "name": "CINA REPUBBLICA NAZIONALE",
+    "code": "Z217"
+  },
+  {
+    "name": "CIPRO",
+    "code": "Z211"
+  },
+  {
+    "name": "COCOS (ISOLE)",
+    "code": "Z212"
+  },
+  {
+    "name": "REPUBBLICA DI COREA",
+    "code": "Z213"
+  },
+  {
+    "name": "COREA REPUBBLICA POPOLARE",
+    "code": "Z214"
+  },
+  {
+    "name": "EMIRATI ARABI UNITI",
+    "code": "Z215"
+  },
+  {
+    "name": "FILIPPINE",
+    "code": "Z216"
+  },
+  {
+    "name": "GIAPPONE",
+    "code": "Z219"
+  },
+  {
+    "name": "GIORDANIA",
+    "code": "Z220"
+  },
+  {
+    "name": "HONG KONG",
+    "code": "Z221"
+  },
+  {
+    "name": "INDIA",
+    "code": "Z222"
+  },
+  {
+    "name": "INDONESIA",
+    "code": "Z223"
+  },
+  {
+    "name": "IRAN",
+    "code": "Z224"
+  },
+  {
+    "name": "IRAQ",
+    "code": "Z225"
+  },
+  {
+    "name": "ISRAELE",
+    "code": "Z226"
+  },
+  {
+    "name": "KUWAIT",
+    "code": "Z227"
+  },
+  {
+    "name": "LAOS",
+    "code": "Z228"
+  },
+  {
+    "name": "LIBANO",
+    "code": "Z229"
+  },
+  {
+    "name": "MALESIA",
+    "code": "Z230"
+  },
+  {
+    "name": "MACAO",
+    "code": "Z231"
+  },
+  {
+    "name": "MALDIVE",
+    "code": "Z232"
+  },
+  {
+    "name": "MONGOLIA REP. POPOLARE",
+    "code": "Z233"
+  },
+  {
+    "name": "NEPAL",
+    "code": "Z234"
+  },
+  {
+    "name": "OMAN",
+    "code": "Z235"
+  },
+  {
+    "name": "PAKISTAN",
+    "code": "Z236"
+  },
+  {
+    "name": "QATAR",
+    "code": "Z237"
+  },
+  {
+    "name": "RYUKYU (ISOLE)",
+    "code": "Z238"
+  },
+  {
+    "name": "SIKKIM",
+    "code": "Z239"
+  },
+  {
+    "name": "SIRIA",
+    "code": "Z240"
+  },
+  {
+    "name": "SRI LANKA",
+    "code": "Z209"
+  },
+  {
+    "name": "THAILANDIA",
+    "code": "Z241"
+  },
+  {
+    "name": "TIMOR (ISOLA)",
+    "code": "Z242"
+  },
+  {
+    "name": "TURCHIA",
+    "code": "Z243"
+  },
+  {
+    "name": "VIETNAM DEL SUD",
+    "code": "Z244"
+  },
+  {
+    "name": "VIETNAM DEL NORD",
+    "code": "Z245"
+  },
+  {
+    "name": "YEMEN",
+    "code": "Z246"
+  },
+  {
+    "name": "MALAYSIA",
+    "code": "Z247"
+  },
+  {
+    "name": "SINGAPORE",
+    "code": "Z248"
+  },
+  {
+    "name": "BANGLADESH",
+    "code": "Z249"
+  },
+  {
+    "name": "YEMEN REP.DEM. POPOLARE",
+    "code": "Z250"
+  },
+  {
+    "name": "VIETNAM",
+    "code": "Z251"
+  },
+  {
+    "name": "NAMIBIA",
+    "code": "Z300"
+  },
+  {
+    "name": "ALGERIA",
+    "code": "Z301"
+  },
+  {
+    "name": "ANGOLA",
+    "code": "Z302"
+  },
+  {
+    "name": "SUD AFRICA",
+    "code": "Z347"
+  },
+  {
+    "name": "EGITTO",
+    "code": "Z336"
+  },
+  {
+    "name": "NIGERIA",
+    "code": "Z335"
+  },
+  {
+    "name": "KENYA",
+    "code": "Z322"
+  },
+  {
+    "name": "BOTSWANA",
+    "code": "Z358"
+  },
+  {
+    "name": "ZAMBIA",
+    "code": "Z355"
+  },
+  {
+    "name": "TANZANIA",
+    "code": "Z357"
+  },
+  {
+    "name": "UGANDA",
+    "code": "Z353"
+  },
+  {
+    "name": "AUSTRALIA",
+    "code": "Z700"
+  },
+  {
+    "name": "NUOVA ZELANDA",
+    "code": "Z719"
+  },
+  {
+    "name": "DIPENDENZE CANADESI",
+    "code": "Z800"
+  },
+  {
+    "name": "DIPENDENZE NEOZELANDESI",
+    "code": "Z903"
+  },
+  {
+    "name": "DIPENDENZE STATUNITENSI",
+    "code": "Z905"
+  },
+  {
+    "name": "DIPENDENZE SUD AFRICANE",
+    "code": "Z906"
+  }
+]

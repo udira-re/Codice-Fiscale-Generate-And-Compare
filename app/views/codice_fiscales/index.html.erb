@@ -1,0 +1,116 @@
+<div style="display:flex; justify-content:center; margin-top:50px;">
+  <div style="
+    background-color:#f0f4f8;
+    border:2px solid #4f46e5;
+    border-radius:12px;
+    padding:30px;
+    width:420px;
+    text-align:center;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  ">
+
+    <h2 style="margin-bottom:20px; color:#4f46e5;">
+      Codice Fiscale Generator & Validator
+    </h2>
+
+    <%= form_with model: @form,
+                  url: codice_fiscales_path,
+                  method: :post,
+                  local: true do |f| %>
+
+      <% if @form.errors.any? %>
+        <% @form.errors.full_messages.each do |msg| %>
+          <p style="color:red; margin-bottom:10px;"><%= msg %></p>
+        <% end %>
+      <% end %>
+
+      <!-- Personal Details -->
+      <div style="margin-bottom:15px;">
+        <%= f.text_field :first_name,
+          placeholder: "First Name",
+          style: "width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;" %>
+      </div>
+
+      <div style="margin-bottom:15px;">
+        <%= f.text_field :last_name,
+          placeholder: "Last Name",
+          style: "width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;" %>
+      </div>
+
+      <div style="margin-bottom:15px;">
+        <%= f.select :gender,
+          [["Male","M"],["Female","F"]],
+          { prompt: "Select Gender" },
+          style: "width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;" %>
+      </div>
+
+      <div style="margin-bottom:15px;">
+        <%= f.date_field :date_of_birth,
+          style: "width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;" %>
+      </div>
+
+      <div style="margin-bottom:20px;">
+        <%= f.text_field :place_of_birth,
+          placeholder: "City or Foreign Country",
+          style: "width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;" %>
+      </div>
+
+      <!-- Show website CF ONLY AFTER generation -->
+      <% if flash[:generated_cf].present? %>
+        <div style="margin-bottom:20px;">
+          <%= f.text_field :website_codice_fiscale,
+            placeholder: "Paste Codice Fiscale from Website",
+            style: "width:100%; padding:10px; border-radius:6px; border:1px solid #ccc; text-transform:uppercase;" %>
+        </div>
+      <% end %>
+
+      <%= f.submit(
+        flash[:generated_cf].present? ? "Compare" : "Generate Codice Fiscale",
+        style: "
+          background-color:#4f46e5;
+          color:white;
+          padding:12px;
+          border:none;
+          border-radius:8px;
+          cursor:pointer;
+          width:100%;
+          font-weight:bold;
+          font-size:16px;
+        "
+      ) %>
+
+    <% end %>
+
+    <!-- Result -->
+    <% if flash[:generated_cf].present? %>
+      <div style="margin-top:25px;">
+        <p style="font-weight:bold; color:#333; margin-bottom:5px;">
+          Generated Codice Fiscale:
+        </p>
+
+        <p style="
+          font-size:18px;
+          letter-spacing:1px;
+          background:#fff;
+          padding:10px;
+          border-radius:6px;
+          border:1px solid #ccc;
+          display:inline-block;
+        ">
+          <%= flash[:generated_cf] %>
+        </p>
+      </div>
+    <% end %>
+
+    <% if flash[:result].present? %>
+      <div style="margin-top:20px;">
+        <h3 style="
+          color:<%= flash[:result].include?('VALID') ? 'green' : 'red' %>;
+        ">
+          Result: <%= flash[:result] %>
+        </h3>
+      </div>
+    <% end %>
+
+  </div>
+</div>
